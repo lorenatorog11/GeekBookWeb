@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+}
+#section{
+    background-color: aqua;
+    width: 100vw;
+    height: 100vh;
+}
+#popup{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 200%);
+    transition: transform ease 2s;
+    height: 50px;
+    width: 100px;
+    background-color: pink;
+    border: 1px solid purple;
+    padding-top: 25px;
+    padding-left: 25px;
+}
+
+#popup:hover{
+    transform: translate(-50%, -50%);
+}

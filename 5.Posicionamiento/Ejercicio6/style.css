@@ -1,0 +1,8 @@
+#divfinal{
+    height: 100px;
+    background-color: yellow;
+    position: fixed;
+    bottom: 0px;
+    z-index: 1;
+    text-align: center;
+}

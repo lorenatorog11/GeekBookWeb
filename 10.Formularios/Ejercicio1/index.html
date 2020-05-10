@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio1</title>
+</head>
+<style>
+    #form{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+</style>
+<body>
+    <form action="/signup" method="post" id="form">
+        <label for="firstName">Nombre</label>
+        <input placeholder="Lorena" id="firstName" type="text" name="firstName">
+        <label for="lastName">Apellido</label>
+        <input placeholder="Toro" id="lastName" type="text" name="lastName">
+        <label for="email">Email</label>
+        <input placeholder="lt@gmail.com" id="email" type="email" name="Email">
+        <label for="calle">Calle</label>
+        <input placeholder="61 AA" id="calle" type="text" name="Calle">
+        <label for="ciudad">Ciudad</label>
+        <input placeholder="Medellín" id="ciudad" type="text" name="Ciudad">
+        <label for="provincia">Provincia</label>
+        <input placeholder="Antioquia" id="provincia" type="text" name="Provincia">
+        <label for="pais">País</label>
+        <input placeholder="Colombia" id="pais" type="text" name="pais">
+        <label for="dni">DNI</label>
+        <input placeholder="DNI" id="dni" type="text" name="DNI">
+        <label for="tel">Teléfono</label>
+        <input placeholder="5544999" id="tel" type="tel" name="Telefono">
+        <label for="contraseña">Contraseña</label>
+        <input placeholder="56997" id="contraseña" type="password" name="Contraseña">
+        <label for="confir_contraseña">Confirmar Contraseña</label>
+        <input placeholder="56997" id="confir_contraseña" type="password" name="Confirmar Contraseña">
+        <input id="btn" type="submit" value="Enviar" name="Enviar">
+      </form>
+</body>
+</html>

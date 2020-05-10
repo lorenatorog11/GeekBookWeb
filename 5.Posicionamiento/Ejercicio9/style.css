@@ -1,0 +1,29 @@
+#body{
+    border: 8px solid black;
+    height: 100vh;
+
+}
+#div{
+    position: absolute;
+    width: 100vh;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 106px;
+}
+#autor{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+#titulo{
+    font-size: 32px;
+    margin-bottom: 32px;
+}
+#contenido{
+    font-size: 18px;
+    margin-bottom: 27px;
+}
+#ref{
+    padding: 8px 16px 8px 16px;
+    margin-left: -16px;
+}

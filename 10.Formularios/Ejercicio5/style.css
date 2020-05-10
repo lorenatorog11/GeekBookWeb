@@ -1,0 +1,72 @@
+#section{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    background: #f1f1f1;
+    font-weight: bold;
+    font-size: 14px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+#form label{
+    margin: 20px 0px 5px 0px;
+}
+#name-surname{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+#firstName{
+    width: 50%;
+    margin-right: 10px;
+}
+#lastName{
+    width: 50%;
+    margin-left: 10px;
+}
+.campos{
+    height: 25px;
+    border: 1px solid #e6e2e2;
+    padding-left: 10px;
+}
+#email{
+    text-align: right;
+    padding-right: 10px;
+    
+}
+#Day{
+    width: 18%;
+}
+#Month{
+    width: 50%;
+    height: 29px;
+    border: 1px solid #e6e2e2;
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+#Year{
+    width: 19%;
+}
+#sex, #ubicacion{
+    height: 30px;
+    border: 1px solid #e6e2e2;
+    background-color: #f1f1f1;
+    font-weight: bold;
+}
+#btn{
+    width: 40%;
+    height: 30px;
+    background-color: #4c8efa;
+    color: white;
+    border: 1px solid #4c8efa;
+    margin-top: 20px;
+    text-align: center;
+    align-self: flex-end;
+
+}

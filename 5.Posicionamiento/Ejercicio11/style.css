@@ -1,0 +1,42 @@
+body{
+    padding: 20px;
+}
+#header{
+    text-align: center;
+    background-color: burlywood;
+}
+#main{
+    text-align: justify;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid burlywood;
+    border-bottom: 1px solid burlywood;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+#footer nav{
+    display: flex;
+    flex-direction: row;
+}
+#footer nav div{
+    margin: 10px;
+}
+#section{
+    position: fixed;
+    bottom: 5px;
+    right: 0px;
+    z-index: 1;
+    margin-right: 10px;
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 5px;
+}
+#section p{
+    display: flex;
+    overflow: hidden;    
+}

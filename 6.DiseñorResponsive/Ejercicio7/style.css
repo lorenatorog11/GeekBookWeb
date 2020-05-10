@@ -1,0 +1,30 @@
+#main{
+    width: 100vw;
+    height: 100vh;
+    font-size: 20px;
+    background-color: red;
+}
+#main h1{
+    font-size: 22px;
+}
+
+@media all and (min-width: 480px) and (max-width: 768px){
+    #main{
+        font-size: 24px;
+        background-color: yellow;
+    }
+    #main h1{
+        font-size: 26px;
+    }
+    
+}
+@media all and (min-width: 768px){
+    #main{
+        font-size: 26px;
+        background-color: green;
+    }
+    #main h1{
+        font-size: 28px;
+    }
+    
+}

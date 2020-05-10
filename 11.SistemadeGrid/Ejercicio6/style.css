@@ -1,0 +1,25 @@
+#item1{
+    background-color: purple;
+    height: 10vh;
+    border: 1px solid white;
+}
+#item2{
+    background-color: cyan;
+    height: 10vh;
+    border: 1px solid white;
+}
+#item3{
+    background-color: orangered;
+    height: 10vh;
+    border: 1px solid white;
+}
+#item4{
+    background-color: greenyellow;
+    height: 10vh;
+    border: 1px solid white;
+}
+#item5{
+    background-color: rgb(230, 45, 174);
+    height: 10vh;
+    border: 1px solid white;
+}

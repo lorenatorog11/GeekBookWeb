@@ -1,0 +1,14 @@
+#div-padre{
+    display: flex;
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    flex-direction: row;
+
+}
+#div-padre div{
+    background-color: blueviolet;
+    border: 1px solid black;
+    color: white;
+    width: auto;
+}

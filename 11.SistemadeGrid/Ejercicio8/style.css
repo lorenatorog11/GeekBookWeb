@@ -1,0 +1,12 @@
+body{
+    padding: 0px;
+}
+#inicio{
+    height: 360px;
+    background-color: teal;
+    color: white;
+}
+#img{
+    width: 360px;
+    height: 360px;
+}

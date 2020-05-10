@@ -1,0 +1,20 @@
+body{
+    padding: 0px;
+    background-color:#e3e3e3 ;
+}
+#cont1{
+    height: 30px;
+}
+#cont2{
+    height: 40vh;
+}
+
+.contenedores{
+    width: 90%;
+    height: 30vh;
+    border: 15px solid #e3e3e3;
+
+}
+#cont3{
+    height: 30px;
+}

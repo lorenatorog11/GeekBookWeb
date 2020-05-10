@@ -1,0 +1,98 @@
+#section{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40vw;
+    width: 60vh;
+    background: linear-gradient(0deg, #d9dceb, white);
+}
+#section header{
+    margin: 20px 22px 0px 20px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+}
+#name-surname{
+    display: flex;
+    flex-direction: row;
+}
+#name-surname input{
+    width: 50%;
+}
+.campos{
+    box-sizing: content-box;
+    border: 1px solid #d9dceb;
+    border-radius: 5px;
+    padding: 1%;
+    height: 25px;
+    margin: 10px 20px 0px 20px;
+    font-size: 100%;
+    color: grey;
+}
+#lastName{
+    margin-left: 0px;
+}
+#Birthday, #altura, #coment{
+    margin: 10px 22px 10px 20px;
+}
+#comentario{
+    margin: 10px 22px 10px 20px;
+    border: 1px solid #d9dceb;
+    border-radius: 5px;
+}
+#date{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 22px 10px 22px;
+}
+#date input {
+    width: 30%;
+    height: 25px;
+    margin-right: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+#date div{
+    font-size: 80%;
+}
+#radio{
+    display: flex;
+    flex-direction: row;
+    margin-left: 22px;
+}
+#Terms{
+    display: flex;
+    flex-direction: row;
+}
+#Terms input{
+    margin: 20px 10px 0px 22px;
+}
+#Terms div{
+    font-size: 70%;
+    width: 80%;
+    text-align: justify;
+
+}
+
+#btn{
+    background-color: #5a9048;
+    color: white;
+    width: 50%;
+    height: 35px;
+    border-radius: 7px;
+    margin: 5px 22px 10px;
+}
+#btn_reset{
+    background-color: rgb(156, 53, 53);
+    color: white;
+    width: 50%;
+    height: 35px;
+    border-radius: 7px;
+    margin: 5px 22px 10px;
+}
+a{
+    text-decoration: none;
+    color: rgb(48, 73, 187);
+}

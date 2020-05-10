@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejercicio1</title>
+</head>
+
+<body>
+    <section id="section">
+        <header>
+            <h1>Create an account</h1>
+            <p>It´s free and always will be.</p>
+        </header>
+        <form action="/signup" method="post" id="form">
+            <div id="name-surname">
+                <input placeholder="First Name" id="firstName" type="text" name="FirstName" class="campos" required>
+                <input placeholder="Surname" id="lastName" type="text" name="Surname" class="campos" required>
+            </div>
+            <input placeholder="Email or mobile number" id="email" type="email number" name="Email" class="campos" required>
+            <input placeholder="Re-enter email or mobile number" id="re-email" type="email number" name="Email" class="campos" required>
+            <input placeholder="New password" type="password" id="password" name="password" class="campos" required>
+            <label id="altura" for="altura"> Altura</label>
+            <input placeholder="Altura (cm)" type="number" id="altura" name="altura" class="campos" min="50" max="250" step="1" value="150" required>
+
+            <p id="Birthday"> Birthday</p>
+
+            <div id="date">
+                <input type="number" min="0" max="31" step="1" placeholder="Day" />
+                <input type="number" min="0" max="12" step="1" placeholder="Month" />
+                <input type="number" min="1900" max="2020" step="1" placeholder="Year" />
+                <div><a href="#">Why do I need to provide my date of birthday</a></div>
+            </div>
+            <div id="radio">
+                <div>
+                    <label for="female"><input type="radio" id="female" value="Female" name="radio_btn"> Female</label> 
+                    
+                </div>
+                <div>
+                    <label for="male"><input type="radio" id="male" value="Male" name="radio_btn"> Male</label>          
+                </div>
+            </div>
+            <p for="comentario" id="coment">Escribe un comentario para tu perfil</p>
+            <textarea name="comentario" id="comentario" cols="30" rows="5" ></textarea>
+
+            
+            <div id="Terms">                
+                <input id="checkbox" type="checkbox" value="Aceptar" name="Aceptar" required >
+                <div><p>By Clicking Create an account, you agree yo out <a href="#">Terms</a> and that you have read our <a href="#">Data Policy</a>, including our <a href="#">Cookie Use</a>.</p></div>
+            </div>
+            <input type="hidden" value="Google Chrome">
+            <input id="btn" type="submit" value="Create an account" name="Enviar">
+            <input id="btn_reset" type="reset" value="Restaurar valores">
+          </form>
+    </section>    
+</body>
+</html>

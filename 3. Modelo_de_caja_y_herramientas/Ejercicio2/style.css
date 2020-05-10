@@ -1,0 +1,17 @@
+body div{
+
+    width:100px;
+    height:100px;
+    display: inline-block;
+}
+#div1{
+    background-color: aqua;
+}
+
+#div2{
+    background-color: blueviolet;
+}
+
+#div3{
+    background-color: chartreuse;
+}

@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    
+}
+#header{
+    flex-basis: 7vh;
+    background-color: aquamarine;
+
+}
+#main{
+    flex-basis : 86vh;
+    background-color: beige;
+    text-align: justify;
+
+}
+#footer{
+    flex-basis : 7vh;
+    background-color: pink;
+
+}
